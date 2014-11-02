@@ -9,7 +9,7 @@ public class Main {
 		ManualCar cazan=new ManualCar();
 		cazan.accelerate();
 		cazan.gearDown();
-		cazan.gearDown();
+		cazan.gearUp();
 		cazan.accelerate();
 		AutomaticCar benveu=new AutomaticCar();
 		benveu.accelerate();
