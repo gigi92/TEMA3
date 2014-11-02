@@ -10,6 +10,7 @@ public class Main {
 		cazan.accelerate();
 		cazan.gearDown();
 		cazan.gearUp();
+		
 		cazan.accelerate();
 		AutomaticCar benveu=new AutomaticCar();
 		benveu.accelerate();

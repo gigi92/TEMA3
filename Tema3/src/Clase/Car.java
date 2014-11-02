@@ -1,7 +1,7 @@
 package Clase;
 
 import Interfete.Vehicle;
-
+//Clasa abstracta pentru Car
 public abstract class Car implements Vehicle
 {
 	
@@ -9,6 +9,7 @@ public abstract class Car implements Vehicle
 	public abstract void startEngine();
 	public abstract void stopEngine();
 	@Override
+	//metoda generala pentru a frana o masina
 	public void brake() {
 		// TODO Auto-generated method stub
 		speed--;
@@ -16,6 +17,7 @@ public abstract class Car implements Vehicle
 	}
 
 	@Override
+	//metoda generala pentru a accelera o masina
 	public void accelerate() {
 		// TODO Auto-generated method stub
 		speed++;

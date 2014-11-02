@@ -1,7 +1,7 @@
 package Clase;
 import Clase.Car;
 import ClaseExceptii.MyException;
-
+//clasa pentru masina cu cutie manuala
 public class ManualCar extends Car {
 	private int gear;
 	
