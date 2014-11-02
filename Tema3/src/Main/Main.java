@@ -1,22 +1,17 @@
 package Main;
 
-import clase_exceptii.MyException;
-import Clase.automata;
-import Clase.manuala;
+import Clase.AutomaticCar;
+import Clase.ManualCar;
 
 public class Main {
 
-	/**
-	 * @param args
-	 * @throws MyException 
-	 */
 	public static void main(String[] args) {
-		manuala cazan=new manuala();
+		ManualCar cazan=new ManualCar();
 		cazan.accelerate();
-		cazan.gear_down();
-		cazan.gear_down();
+		cazan.gearDown();
+		cazan.gearDown();
 		cazan.accelerate();
-		automata benveu=new automata();
+		AutomaticCar benveu=new AutomaticCar();
 		benveu.accelerate();
 	}
 

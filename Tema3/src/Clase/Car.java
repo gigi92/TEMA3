@@ -1,13 +1,13 @@
 package Clase;
 
-import Interfete.vehicule;
+import Interfete.Vehicle;
 
-public abstract class Masini implements vehicule
+public abstract class Car implements Vehicle
 {
 	
 	int speed;
-	public abstract void start_engine();
-	public abstract void stop_engine();
+	public abstract void startEngine();
+	public abstract void stopEngine();
 	@Override
 	public void brake() {
 		// TODO Auto-generated method stub
@@ -21,11 +21,11 @@ public abstract class Masini implements vehicule
 		speed++;
 		System.out.println("Am accelerat");
 	}
-	public Masini(){
+	public Car(){
 		speed=0;
 	}
-	public void gear_up(){
+	public void gearUp(){
 	}
-	public void gear_down(){
+	public void gearDown(){
 	}
 }

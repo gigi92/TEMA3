@@ -1,8 +1,8 @@
 package Clase;
-import Clase.Masini;
+import Clase.Car;
 import clase_exceptii.MyException;
 
-public class manuala extends Masini {
+public class ManualCar extends Car {
 	private int gear;
 	
 	public int getGear() {
@@ -12,10 +12,10 @@ public class manuala extends Masini {
 	public void setGear(int gear) {
 		this.gear = gear;
 	}
-	public manuala(){
+	public ManualCar(){
 		setGear(0);
 	}
-	public void gear_up(){
+	public void gearUp(){
 		try{
 			if(gear>6){
 			throw new MyException("Ati ajuns deja in treapta maxima de viteza");
@@ -32,7 +32,7 @@ public class manuala extends Masini {
 		}
 }
 	
-	public void gear_down(){
+	public void gearDown(){
 		try{
 		if(gear<0){
 			throw new MyException("Nu se poate schimba in treapta -2");
@@ -50,10 +50,14 @@ public class manuala extends Masini {
 		
 		
 	}
-	public void start_engine(){
+	public void startEngine(){
+		if(gear!=0)
+		{
+			System.out.println("Scoateti masina din viteza");
+		}
 		
 	}
-	public void stop_engine(){
-		
+	public void stopEngine(){
+		System.out.println("Engine Stopped");
 	}
 }
