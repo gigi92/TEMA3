@@ -1,4 +1,4 @@
-package clase_exceptii;
+package ClaseExceptii;
 
 public class MyException extends Exception {
 

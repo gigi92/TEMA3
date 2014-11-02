@@ -1,6 +1,6 @@
 package Clase;
 import Clase.Car;
-import clase_exceptii.MyException;
+import ClaseExceptii.MyException;
 
 public class ManualCar extends Car {
 	private int gear;
