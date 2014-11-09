@@ -1,6 +1,6 @@
-package Clase;
+package e214b.puica.clase;
 
-import Interfete.Vehicle;
+import e214b.puica.interfete.Vehicle;
 //Clasa abstracta pentru Car
 public abstract class Car implements Vehicle
 {
@@ -25,9 +25,5 @@ public abstract class Car implements Vehicle
 	}
 	public Car(){
 		speed=0;
-	}
-	public void gearUp(){
-	}
-	public void gearDown(){
 	}
 }

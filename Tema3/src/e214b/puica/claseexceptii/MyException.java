@@ -1,4 +1,4 @@
-package ClaseExceptii;
+package e214b.puica.claseexceptii;
 
 public class MyException extends Exception {
 

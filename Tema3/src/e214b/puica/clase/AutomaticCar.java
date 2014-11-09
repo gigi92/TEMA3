@@ -1,5 +1,5 @@
-package Clase;
-import Clase.Car;
+package e214b.puica.clase;
+import e214b.puica.clase.Car;
 //clasa pentru masini cu cutie automata
 public class AutomaticCar extends Car {
 	/*pentru ca felul in care pornesti si opresti o masina automata de un manuala
